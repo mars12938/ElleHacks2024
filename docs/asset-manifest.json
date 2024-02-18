@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.eac32c78.css",
-    "main.js": "/static/js/main.6afbb102.js",
+    "main.js": "/static/js/main.03039a31.js",
     "static/js/453.ee6651d4.chunk.js": "/static/js/453.ee6651d4.chunk.js",
     "static/media/study-seasonal-depression.jpeg": "/static/media/study-seasonal-depression.4d8a1f2ce90e3d271bf6.jpeg",
     "index.html": "/index.html",
     "main.eac32c78.css.map": "/static/css/main.eac32c78.css.map",
-    "main.6afbb102.js.map": "/static/js/main.6afbb102.js.map",
+    "main.03039a31.js.map": "/static/js/main.03039a31.js.map",
     "453.ee6651d4.chunk.js.map": "/static/js/453.ee6651d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eac32c78.css",
-    "static/js/main.6afbb102.js"
+    "static/js/main.03039a31.js"
   ]
 }
