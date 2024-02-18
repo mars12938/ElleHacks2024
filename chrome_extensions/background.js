@@ -30,7 +30,7 @@ chrome.runtime.onMessage.addListener(
 function createAlarm() {
     chrome.alarms.create(
         {
-            delayInMinutes: 1,
+            delayInMinutes: 0.5,
             periodInMinutes: 1
         }
     );
