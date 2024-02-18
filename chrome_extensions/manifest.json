@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "The Happy Hack",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "thehappyhack.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "notifications",
+    "alarms",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
