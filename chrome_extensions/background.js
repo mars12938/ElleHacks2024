@@ -1,4 +1,4 @@
-num = Math.floor(Math.random() * 4);
+num = Math.floor(Math.random() * 5);
 
 chrome.alarms.onAlarm.addListener(
     () => {
