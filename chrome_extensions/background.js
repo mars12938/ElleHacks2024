@@ -6,7 +6,7 @@ chrome.alarms.onAlarm.addListener(
             {
                 type: "basic",
                 iconUrl: images[num],
-                title: "Lumos",
+                title: "LumosLite",
                 message: msgs[num],
                 silent: false
             },
@@ -30,7 +30,7 @@ chrome.runtime.onMessage.addListener(
 function createAlarm() {
     chrome.alarms.create(
         {
-            delayInMinutes: 1,
+            delayInMinutes: 0.5,
             periodInMinutes: 1
         }
     );
