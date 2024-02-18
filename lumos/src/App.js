@@ -1,13 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.scss';
-import SurveyCreatorRenderComponent from './questionaire/src/SurveyCreatorComponent';
-import 'survey-core/defaultV2.min.css';
+
+import FullPage from './FullPage';
 
 
 
 const App = () => {
-  return (
-    <div className='body'>
+  /*     <div className='body'>
             
     <div class="container text-center">
         <div class="row">
@@ -32,8 +31,10 @@ const App = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div>*/
 
+  return (
+    <FullPage/>
   );
 };
 
