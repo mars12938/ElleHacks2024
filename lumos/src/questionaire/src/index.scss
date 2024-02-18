@@ -1,0 +1,21 @@
+@import "./vars.scss";
+
+body {
+
+    font-family: monospace;
+    background: radial-gradient(#eb8d8d, $primary);
+    color: $foreground;
+    height:'100vh'
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100% */
+
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+}

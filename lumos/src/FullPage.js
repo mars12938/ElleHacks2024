@@ -3,8 +3,10 @@ import Fullpage, {FullPageSections, FullpageSection, FullpageNavigation} from '@
 import image from './study-seasonal-depression.jpeg'
 import { LuSun } from "react-icons/lu";
 import { FiSun } from "react-icons/fi";
+import SurveyCreatorComponent from './questionaire/src/SurveyCreatorComponent';
 
-
+import SurveyCreatorRenderComponent from './questionaire/src/SurveyCreatorComponent';
+import './styles/App.scss';
 
 const FullPage = () => {
 
@@ -42,7 +44,7 @@ const FullPage = () => {
                         <div className='col-8'>
                         <div className='container'>
                             <h1 >Helping you overcome the Winter blues.</h1>
-                            <h3 className='mt-3'> Over 15% of Canadians report experiencing seasonal depression. Seasonal Affective Disorder (SAD) is at it's peak during the months of January and February. Lumos attempts to break the cycle of seasonal depression by encouraging exposure to nature and tackling isolation. </h3>  
+                            <h3 className='mt-3'> Over 15% of Canadians report experiencing seasonal depression. Seasonal Affective Disorder (SAD) is at it's peak during the months of January and February. Lumos attempts to break the cycle of seasonal depression by encouraging users to get sun exposure and prioritize connections. </h3>  
                         </div>
 
                         </div>
@@ -55,7 +57,7 @@ const FullPage = () => {
                         
                         <h1>Check out our Chrome Extension: <strong>LumosLite</strong>, which provides wellness reminders to get outside and reach out to your friends. </h1>
                         <div className='container' style={ContainerStyle}>
-                        <button type="button" class="btn btn-dark btn-lg vertical-center">Dark</button>
+                        {/*<button type="button" class="btn btn-dark btn-lg vertical-center">Dark</button>*/}
 
                         </div>
                     </div>
@@ -63,7 +65,12 @@ const FullPage = () => {
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}>
-                <h1>Screen 4</h1>
+                    <div className='col-9'>
+                        <h1>Resource Match Survey</h1>
+                        <div className='mt-4'>
+                            <SurveyCreatorComponent/>
+                        </div>
+                    </div>
                 </FullpageSection>
 
             </FullPageSections>
