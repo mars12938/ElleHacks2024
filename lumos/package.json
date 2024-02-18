@@ -11,6 +11,9 @@
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.71.0",
+    "survey-creator-react": "^1.9.130",
+    "survey-react-ui": "^1.9.130",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
