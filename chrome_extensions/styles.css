@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  background: linear-gradient(#f5f2ee, #b7aced);
-  color: #363639;
+  background: radial-gradient(#eb8d8d, #ede5ac);
+  color: #131367;
   text-align: center;
   font-family: "monospace";
 }

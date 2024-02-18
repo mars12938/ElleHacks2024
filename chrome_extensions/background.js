@@ -6,7 +6,7 @@ chrome.alarms.onAlarm.addListener(
             {
                 type: "basic",
                 iconUrl: images[num],
-                title: "Lumos",
+                title: "LumosLite",
                 message: msgs[num],
                 silent: false
             },
