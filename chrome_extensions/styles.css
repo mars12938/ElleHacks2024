@@ -22,6 +22,10 @@ h3 {
   font-size: 20px;
 }
 
+p {
+  margin: 0px;
+}
+
 button {
   border-color: #bebebe;
   background-color: #dcdcdc;
@@ -32,6 +36,6 @@ button {
   font-family: "monospace";
 }
 
-img {
+#plants {
   margin: 10px;
 }
